@@ -121,6 +121,7 @@ STOCK_CONTROL_MSGS = {
   CAR.CADILLAC_ATS: [384, 715], # 384 = "ASCMLKASteeringCmd", 715 = "ASCMGasRegenCmd"
   CAR.BUICK_REGAL: [384, 715], # 384 = "ASCMLKASteeringCmd", 715 = "ASCMGasRegenCmd"
   CAR.CADILLAC_CT6: [], # CT6 does not require ASCMs to be disconnected
+  CAR.BOLT: [], # Empty for test
 }
 
 DBC = {
@@ -131,4 +132,5 @@ DBC = {
   CAR.CADILLAC_ATS: dbc_dict('gm_global_a_powertrain', 'gm_global_a_object', chassis_dbc='gm_global_a_chassis'),
   CAR.BUICK_REGAL: dbc_dict('gm_global_a_powertrain', 'gm_global_a_object', chassis_dbc='gm_global_a_chassis'),
   CAR.CADILLAC_CT6: dbc_dict('cadillac_ct6_powertrain', 'cadillac_ct6_object', chassis_dbc='cadillac_ct6_chassis'),
+  CAR.BOLT: dbc_dict('gm_global_a_powertrain', 'gm_global_a_object', chassis_dbc='gm_global_a_chassis'),
 }
